@@ -62,7 +62,7 @@ RSASHA256(
 
 Todas essas três partes devem ser codificadas em BASE64 da seguinte forma:
 
-BASE64( header).BASE64(corpo).BASE(assinatura)
+BASE64(header).BASE64(corpo).BASE(assinatura)
 
 O resultado dessa combinação seria:
 
