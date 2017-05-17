@@ -29,10 +29,10 @@
 - **900905 - Incorrect access token type is provided**
   * O tipo de token de acesso informado não é suportado. Os tipos de token de acesso suportados são tokens de acesso de aplicativo e de usuário.
   
-- *900906 - No matching resource found in the API for the given request*
+- **900906 - No matching resource found in the API for the given request**
   * A API Solicitada não está disponível ou o nome informado está incorreto
   
-- *900907 - The requested API is temporarily blocked*
+- **900907 - The requested API is temporarily blocked**
   * Seu acesso à API Solicitada está temporariamente Bloqueado, entre em contato com o suporte para mais detalhes.
   
 - **900908 - Resource forbidden**
