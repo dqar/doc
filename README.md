@@ -8,7 +8,7 @@ Aqui você encontrará informações sobre:
 - [ ] Aplicações de exemplos que já se integrem com as soluções disponibilizadas pelo SERPRO (_em breve!_)
 
 ### Código fonte
-Para ter acesso a códigos fontes disponibilizados pelo SERPRO acesse a [área de disponibilização de códigos](codes)
+Para ter acesso a códigos fontes disponibilizados pelo SERPRO acesse a [área de disponibilização de códigos](https://github.com/devserpro/codes)
 
 ### Portal do Desenvolvedor
 Em caso de dúvidas, acesse nosso [Portal do Desenvolvedor](https://dev.serpro.gov.br).
