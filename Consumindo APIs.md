@@ -1,8 +1,8 @@
 # [Consumindo APIs disponibilizadas pelo SERPRO](#consumindo)
 
-[O que é _API_?](#oqueeapi) - [_APIs_ Disponíveis](#apisdisponiveis) - [Degustação e Testes](#degustacaoetestes) - [Como Consumir os Serviços](#comoconsumirosservicos) - [Autenticação](#autenticacao) - [Códigos de Erros](#codigosdeerros) - [Como e Onde Contratar](#comoeondecontratar) - [Minha Conta e Estatísticas de Uso](#minhaconta) - [Aplicabilidades](#aplicabilidades)
+[O que é _API_?](## O que é _API_?) - [_APIs_ Disponíveis](## _APIs_ Disponíveis) - [Degustação e Testes](#degustacaoetestes) - [Como Consumir os Serviços](#comoconsumirosservicos) - [Autenticação](#autenticacao) - [Códigos de Erros](#codigosdeerros) - [Como e Onde Contratar](#comoeondecontratar) - [Minha Conta e Estatísticas de Uso](#minhaconta) - [Aplicabilidades](#aplicabilidades)
 
-## [O que é _API_?](#oqueeapi)
+## O que é _API_?
 Em Inglês o termo _API_ é o acrônimo de _Application Programming Interface_ que significa literalmente Interface de Programação de Aplicativos. Essa interface possibilita que serviços/dispositivos criados com tecnologias diferentes se comuniquem entre si. Eles não precisam saber como o outro dispositivo funciona ou o que ele precisa acessar. Um comando é enviado e em contrapartida é esperado uma resposta que pode ser uma resposta positiva, negativa ou simplesmente informações requeridas. As _APIs_ podem ser utilizadas em diferentes níveis desde a comunicação entre software/hardware e software/software.
 
 Tendo como o exemplo um carro autônomo podemos identificar diferentes níveis de _APIs_ envolvidas em seu funcionamento: Em um nível mais baixo temos as APIs que possibilitam a comunicação entre os sensores externos e comando central do veiculo; temos também as APIs responsáveis pelo envio dos comandos da central inteligente a cada um dos dispositivos eletrônicos do automóvel. Podemos identificar também a importância das APIs na comunicação do carro com diversos sistemas/serviços externos inclusive àqueles disponibilizados através da internet. Todo veiculo, autônomo ou não, necessita de um registro que o autorize a circular em todo o território nacional. Esse registro é chamado de RENAVAN (Registro Nacional de Veículos Automotores). Todos os condutores também necessitam de um registro. Chamamos esse registro de CNH (Carteira Nacional de Habilitação). Tanto o RENAVAN quanto a CNH são gerenciados por sistemas que disponibilizam informações à todos os departamento de Transito e agentes de transito do Brasil por meio de APIs. Um Agente de Transito pode ter qualquer informação, em tempo real, de um determinado veículo. Ele pode identificar se este veiculo está envolvido em alguma ocorrência policial, se esta com todos os impostos e seguro obrigatório quitados além de também identificar qualquer informação do condutor, se está com a habilitação vencida ou até mesmo se está envolvido em alguma ocorrência policial.
@@ -11,7 +11,7 @@ As _APIs_ possuem um papel crucial em um mundo cada vez mais conectado e que nec
 
 [Voltar ao Topo](#consumindo)
 
-## [_APIs_ Disponíveis](#apisdisponiveis)
+## _APIs_ Disponíveis
 <div style="display: inline;">
  <img src="https://raw.githubusercontent.com/devserpro/doc/master/logo-consulta-cnpj.png" width="100" style="padding-right: 20px;" />
  <img src="https://raw.githubusercontent.com/devserpro/doc/master/logo-consulta-cpf.png" width="100" />
