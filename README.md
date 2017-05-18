@@ -7,6 +7,9 @@ Aqui você encontrará informações sobre:
 - [ ] Scripts Docker para criação de ambientes na Nuvem do SERPRO (_em breve!_)
 - [ ] Aplicações de exemplos que já se integrem com as soluções disponibilizadas pelo SERPRO (_em breve!_)
 
+### Deseja Consumir _APIs_ Disponibilizadas pelo SERPRO?
+Saiba mais [aqui](/doc/blob/master/Consumindo%20APIs.md)
+
 ### Código fonte
 Para ter acesso a códigos fontes disponibilizados pelo SERPRO acesse a [área de disponibilização de códigos](https://github.com/devserpro/codes)
 
