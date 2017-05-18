@@ -29,11 +29,11 @@ Consumer Secret : WyUeBFCUK7wu1Ko61V7bb7yB2Uoa
 ### Passos para acessar a API
 As nossas _APIs_ utiliza o protocolo de autorização _OAUTH2_ para disponibilizar o acesso às _APIs_. No exemplo abaixo estamos utilizando o _GranType Client Credentials_ para requisição de token e acesso a _API_:
 
-#### 1 - Informe os IPs de sua máquina
+#### 1 - Informe os _IPs_ de sua máquina
 
 Por medidas de segurança, precisamos liberar o acesso da sua máquina à nossa infraestrutura. Para isso, é necessário que você informe o IP da máquina que irá consumir a _API_ para o endereço: [apigov@serpro.gov.br](mailto:apigov@serpro.gov.br)
 
-#### 2 - Faça a requisição do Token de acesso
+#### 2 - Faça a requisição do _Token_ de acesso
 
 O primeiro passo que deve ser seguido antes de realizar a chamado da _API_ é a requisição do token de Acesso. Esse token tem sua validade definida de acordo com a _API_. Para solicitar o token temporário siga os seguintes passos:
 
@@ -60,15 +60,15 @@ O _Gateway_ informará as iformações de token no seguinte padrão:
  {"scope":"am_application_scope default","token_type":"Bearer","expires_in":3295,"access_token":"c66a7de41c96f7008a0c397dc588b6d7"} 
 ```
 
-**scope** = Algumas APIs definem escopos diferentes para acessos a diferentes funcionalidades. Por exemplo: clientes com escopo de Leitura podem acessar somente funcionalidades de Leitura, escopo de escrita poderão consultar e incluir novos valores, escopo de deleção poderão consultar, incluir e deletar. Quando a API não possui esse tipo de recurso usa-se o escopo padrão.
+**scope** = Algumas APIs definem escopos diferentes para acessos a diferentes funcionalidades. Por exemplo: clientes com escopo de Leitura podem acessar somente funcionalidades de Leitura, escopo de escrita poderão consultar e incluir novos valores, escopo de deleção poderão consultar, incluir e deletar. Quando a _API_ não possui esse tipo de recurso usa-se o escopo padrão.
 
 **token_type** = Define a forma como o token será enviado. Por padrão utilizamos **_Bearer_**.
 
-**expires_in** = Define o tempo em segundos em que o token expirará. Passado esse tempo será necessário realizar uma nova chamada.
+**expires_in** = Define o tempo em segundos em que o _token_ expirará. Passado esse tempo será necessário realizar uma nova chamada.
 
-**access_token** = O token a ser enviado durante a requisição.
+**access_token** = O _token_ a ser enviado durante a requisição.
 
-#### 3 - Faça a requisição à API
+#### 3 - Faça a requisição à _API_
 
 Cada _API_ possui seus próprios atributos. Para acessá-los consulte a aba Console da _API_ da sua _API_.
 
@@ -146,6 +146,7 @@ Nesse caso, espera-se que a resposta seja a seguinte:
   }
 }
 ```
+
 ## Autenticação
 
 ### O que é OAUTH 2
