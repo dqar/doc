@@ -11,7 +11,7 @@ Aqui você encontrará informações sobre:
 Saiba mais [aqui](Consumindo%20APIs.md).
 
 ### Código fonte
-Para ter acesso a códigos fontes disponibilizados pelo SERPRO acesse a [área de disponibilização de códigos](https://github.com/devserpro/codes)
+Para ter acesso a códigos fontes disponibilizados pelo SERPRO acesse a [área de disponibilização de códigos](https://github.com/devserpro/codes).
 
 ### Portal do Desenvolvedor
 Em caso de dúvidas, acesse nosso [Portal do Desenvolvedor](https://dev.serpro.gov.br).
