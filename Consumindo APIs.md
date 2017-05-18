@@ -2,7 +2,7 @@
 
 [O que é _API_?](#o_que_e_api) - [_APIs_ Disponíveis](#apis_disponiveis) - [Degustação e Testes](#degustacao_e_testes) - [Como Consumir os Serviços](#como_consumir_os_servicos) - [Autenticação](#autenticacao) - [Códigos de Erros](#codigos_de_erros) - [Como e Onde Contratar](#como_e_onde_contratar) - [Minha Conta e Estatísticas de Uso](#minha_conta) - [Aplicabilidades](#aplicabilidades)
 
-## O que é _API_?(#o_que_e_api)
+## [O que é _API_?](#o_que_e_api)
 Em Inglês o termo _API_ é o acrônimo de _Application Programming Interface_ que significa literalmente Interface de Programação de Aplicativos. Essa interface possibilita que serviços/dispositivos criados com tecnologias diferentes se comuniquem entre si. Eles não precisam saber como o outro dispositivo funciona ou o que ele precisa acessar. Um comando é enviado e em contrapartida é esperado uma resposta que pode ser uma resposta positiva, negativa ou simplesmente informações requeridas. As _APIs_ podem ser utilizadas em diferentes níveis desde a comunicação entre software/hardware e software/software.
 
 Tendo como o exemplo um carro autônomo podemos identificar diferentes níveis de _APIs_ envolvidas em seu funcionamento: Em um nível mais baixo temos as APIs que possibilitam a comunicação entre os sensores externos e comando central do veiculo; temos também as APIs responsáveis pelo envio dos comandos da central inteligente a cada um dos dispositivos eletrônicos do automóvel. Podemos identificar também a importância das APIs na comunicação do carro com diversos sistemas/serviços externos inclusive àqueles disponibilizados através da internet. Todo veiculo, autônomo ou não, necessita de um registro que o autorize a circular em todo o território nacional. Esse registro é chamado de RENAVAN (Registro Nacional de Veículos Automotores). Todos os condutores também necessitam de um registro. Chamamos esse registro de CNH (Carteira Nacional de Habilitação). Tanto o RENAVAN quanto a CNH são gerenciados por sistemas que disponibilizam informações à todos os departamento de Transito e agentes de transito do Brasil por meio de APIs. Um Agente de Transito pode ter qualquer informação, em tempo real, de um determinado veículo. Ele pode identificar se este veiculo está envolvido em alguma ocorrência policial, se esta com todos os impostos e seguro obrigatório quitados além de também identificar qualquer informação do condutor, se está com a habilitação vencida ou até mesmo se está envolvido em alguma ocorrência policial.
@@ -11,7 +11,7 @@ As _APIs_ possuem um papel crucial em um mundo cada vez mais conectado e que nec
 
 [Voltar ao Topo](#consumindo)
 
-## _APIs_ Disponíveis(#apis_disponiveis)
+## [_APIs_ Disponíveis](#apis_disponiveis)
 <div style="display: inline;">
  <img src="https://raw.githubusercontent.com/devserpro/doc/master/logo-consulta-cnpj.png" width="100" style="padding-right: 20px;" />
  <img src="https://raw.githubusercontent.com/devserpro/doc/master/logo-consulta-cpf.png" width="100" />
@@ -19,7 +19,7 @@ As _APIs_ possuem um papel crucial em um mundo cada vez mais conectado e que nec
 
 [Voltar ao Topo](#consumindo)
 
-## Degustação e Testes(#degustacao_e_testes)
+## [Degustação e Testes](#degustacao_e_testes)
 Acesse o [Portal do Desenvolvedor](https://dev.serpro.gov.br) e clique no botão **"Teste APIs"**, conforme figura abaixo:
 <div style="text-align: center;">
  <a href="https://dev.serpro.gov.br" target="_blank"><img src="https://github.com/devserpro/doc/blob/master/teste-apis.png?raw=true" width="900" /></a>
@@ -32,7 +32,7 @@ Uma _modal_ (tela) será aberta para a realização de testes utilizando o _Swag
 
 [Voltar ao Topo](#consumindo)
 
-## Como Consumir os Serviços(#como_consumir_os_servicos)
+## [Como Consumir os Serviços](#como_consumir_os_servicos)
 
 Para consumir os serviços do APIGov é necessário que seja estabelecido um contrato com a área responsável pela _API_. No contrato estão definidos:
 
@@ -170,7 +170,7 @@ Nesse caso, espera-se que a resposta seja a seguinte:
 
 [Voltar ao Topo](#consumindo)
 
-## Autenticação(#autenticacao)
+## [Autenticação](#autenticacao)
 
 ### O que é OAUTH 2
 As _APIs_ do SERPRO utilizam por padrão o _OAUTH2_ como autorização de acesso às _APIs_. Esse método consiste na troca de chaves entre o cliente e o APIGOV. Inicialmente o cliente informa suas credenciais para receber o token de acesso temporario que deverá ser enviada juntamente com a requisição da _API_. Para saber mais informações sobre o _OAUTH2_ consulte aqui .
@@ -233,7 +233,7 @@ Nas _APIs_ o _JWT_ pode ser usado tanto por parte do cliente que está consumind
 
 [Voltar ao Topo](#consumindo)
 
-## Códigos de Erros(#codigos_de_erros)
+## [Códigos de Erros](#codigos_de_erros)
 
 - **700700 - API blocked**
   * Esta API foi bloqueada temporariamente. Tente novamente mais tarde ou entre em contato com os administradores do sistema. Invocar uma API que está no estado de ciclo de vida BLOCKED
@@ -320,15 +320,15 @@ Esse erro ocorre quando o usuário não envia uma chave de subscrição válida 
 
 [Voltar ao Topo](#consumindo)
 
-## Como e Onde Contratar(#como_e_onde_contratar)
+## [Como e Onde Contratar](#como_e_onde_contratar)
 Manifestando o interesse por alguma _API_ já existente ou não, você pode preencher as informações do formulário que pode ser encontrado aqui ou entrar em contato diretamente com a área comercial do SERPRO pelo número **0800-728-2323** ou pelo e-mail: [comercial@serpro.gov.br](mailto:comercial@serpro.gov.br).
 
 [Voltar ao Topo](#consumindo)
 
-## Minha Conta e Estatísticas de Uso(#minha_conta)
+## [Minha Conta e Estatísticas de Uso](#minha_conta)
 
 [Voltar ao Topo](#consumindo)
 
-## Aplicabilidades(#aplicabilidades)
+## [Aplicabilidades](#aplicabilidades)
 
 [Voltar ao Topo](#consumindo)
