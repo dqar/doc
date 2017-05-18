@@ -15,8 +15,8 @@ As _APIs_ possuem um papel crucial em um mundo cada vez mais conectado e que nec
 
 ## Degustação e Testes
 Acesse o [Portal do Desenvolvedor](https://dev.serpro.gov.br) e clique no botão **"Teste APIs"**, conforme figura abaixo:
-<div style="width: 100%; text-align: center;">
- <img src="https://github.com/devserpro/doc/blob/master/teste-apis.png?raw=true" width="500" />
+<div style="text-align: center;">
+ <a href="https://dev.serpro.gov.br" target="_blank"><img src="https://github.com/devserpro/doc/blob/master/teste-apis.png?raw=true" width="900" /></a>
 </div>
 
 ## Como Consumir os Serviços
