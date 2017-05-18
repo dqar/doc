@@ -158,6 +158,7 @@ O sistema retorna a mensagem de erro abaixo:
 Esse erro ocorre quando o usuário não envia uma chave de subscrição válida ou quando não é feito o BASE64 da chave.
 
 ## Como e Onde Contratar
+Manifestando o interesse por alguma _API_ já existente ou não, você pode preencher as informações do formulário que pode ser encontrado aqui ou entrar em contato diretamente com a área comercial do SERPRO pelo número [0800-728-2323](tel:08007282323) ou pelo e-mail: [comercial@serpro.gov.br](mailto:comercial@serpro.gov.br).
 
 ## Minha Conta e Estatísticas de Uso
 
