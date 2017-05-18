@@ -1,6 +1,6 @@
-# [Consumindo APIs disponibilizadas pelo SERPRO](#consumindo)
+# Consumindo APIs disponibilizadas pelo SERPRO
 
-[O que é _API_?](#o_que_%C3%A9_api) - [_APIs_ Disponíveis](#apis_dispon%C3%ADveis) - [Degustação e Testes](#degusta%C3%A7%C3%A3o_e_testes) - [Como Consumir os Serviços](#como_consumir_os_serviços) - [Autenticação](#autentica%C3%A7%C3%A3o) - [Códigos de Erros](#c%C3%B3digos_de_erros) - [Como e Onde Contratar](#como_e_onde_contratar) - [Minha Conta e Estatísticas de Uso](#minha_conta_e_estat%C3%ADsticas_de_uso) - [Aplicabilidades](#aplicabilidades)
+[O que é _API_?](#o-que-%C3%A9-api) - [_APIs_ Disponíveis](#apis-dispon%C3%ADveis) - [Degustação e Testes](#degusta%C3%A7%C3%A3o-e-testes) - [Como Consumir os Serviços](#como-consumir-os-serviços) - [Autenticação](#autentica%C3%A7%C3%A3o) - [Códigos de Erros](#c%C3%B3digos-de-erros) - [Como e Onde Contratar](#como-e-onde-contratar) - [Minha Conta e Estatísticas de Uso](#minha-conta-e-estat%C3%ADsticas-de-uso) - [Aplicabilidades](#aplicabilidades)
 
 ## O que é _API_?
 Em Inglês o termo _API_ é o acrônimo de _Application Programming Interface_ que significa literalmente Interface de Programação de Aplicativos. Essa interface possibilita que serviços/dispositivos criados com tecnologias diferentes se comuniquem entre si. Eles não precisam saber como o outro dispositivo funciona ou o que ele precisa acessar. Um comando é enviado e em contrapartida é esperado uma resposta que pode ser uma resposta positiva, negativa ou simplesmente informações requeridas. As _APIs_ podem ser utilizadas em diferentes níveis desde a comunicação entre software/hardware e software/software.
@@ -9,7 +9,7 @@ Tendo como o exemplo um carro autônomo podemos identificar diferentes níveis d
 
 As _APIs_ possuem um papel crucial em um mundo cada vez mais conectado e que necessita de informações de forma rápida e segura.
 
-[Voltar ao Topo](#consumindo)
+[Voltar ao Topo](#consumindo-apis-disponibilizadas-pelo-serpro)
 
 ## _APIs_ Disponíveis
 <div style="display: inline;">
@@ -17,7 +17,7 @@ As _APIs_ possuem um papel crucial em um mundo cada vez mais conectado e que nec
  <img src="https://raw.githubusercontent.com/devserpro/doc/master/logo-consulta-cpf.png" width="100" />
 </div>
 
-[Voltar ao Topo](#consumindo)
+[Voltar ao Topo](#consumindo-apis-disponibilizadas-pelo-serpro)
 
 ## Degustação e Testes
 Acesse o [Portal do Desenvolvedor](https://dev.serpro.gov.br) e clique no botão **"Teste APIs"**, conforme figura abaixo:
@@ -30,7 +30,7 @@ Uma _modal_ (tela) será aberta para a realização de testes utilizando o _Swag
  <a href="https://dev.serpro.gov.br" target="_blank"><img src="https://github.com/devserpro/doc/blob/master/teste-apis-swagger.png?raw=true" width="900" /></a>
 </div>
 
-[Voltar ao Topo](#consumindo)
+[Voltar ao Topo](#consumindo-apis-disponibilizadas-pelo-serpro)
 
 ## Como Consumir os Serviços
 
@@ -168,7 +168,7 @@ Nesse caso, espera-se que a resposta seja a seguinte:
 }
 ```
 
-[Voltar ao Topo](#consumindo)
+[Voltar ao Topo](#consumindo-apis-disponibilizadas-pelo-serpro)
 
 ## Autenticação
 
@@ -231,7 +231,7 @@ ew0KICAiYWxnIjogIkhTMjU2IiwNCiAgInR5cCI6ICJKV1QiDQp9.ew0KICAic3ViIjogIjEyMzQ1Njc
 
 Nas _APIs_ o _JWT_ pode ser usado tanto por parte do cliente que está consumindo a _API_ quanto no envio da informação do usuário à _API_ pelo SERPRO.
 
-[Voltar ao Topo](#consumindo)
+[Voltar ao Topo](#consumindo-apis-disponibilizadas-pelo-serpro)
 
 ## Códigos de Erros
 
@@ -318,17 +318,17 @@ O sistema retorna a mensagem de erro abaixo:
 **Solução:**
 Esse erro ocorre quando o usuário não envia uma chave de subscrição válida ou quando não é feito o BASE64 da chave.
 
-[Voltar ao Topo](#consumindo)
+[Voltar ao Topo](#consumindo-apis-disponibilizadas-pelo-serpro)
 
 ## Como e Onde Contratar
 Manifestando o interesse por alguma _API_ já existente ou não, você pode preencher as informações do formulário que pode ser encontrado aqui ou entrar em contato diretamente com a área comercial do SERPRO pelo número **0800-728-2323** ou pelo e-mail: [comercial@serpro.gov.br](mailto:comercial@serpro.gov.br).
 
-[Voltar ao Topo](#consumindo)
+[Voltar ao Topo](#consumindo-apis-disponibilizadas-pelo-serpro)
 
 ## Minha Conta e Estatísticas de Uso
 
-[Voltar ao Topo](#consumindo)
+[Voltar ao Topo](#consumindo-apis-disponibilizadas-pelo-serpro)
 
 ## Aplicabilidades
 
-[Voltar ao Topo](#consumindo)
+[Voltar ao Topo](#consumindo-apis-disponibilizadas-pelo-serpro)
