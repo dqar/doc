@@ -8,8 +8,10 @@ Tendo como o exemplo um carro autônomo podemos identificar diferentes níveis d
 As _APIs_ possuem um papel crucial em um mundo cada vez mais conectado e que necessita de informações de forma rápida e segura.
 
 ## _APIs_ Disponíveis
-<img src="https://raw.githubusercontent.com/devserpro/doc/master/logo-consulta-cnpj.png" width="70" />
-<img src="https://raw.githubusercontent.com/devserpro/doc/master/logo-consulta-cpf.png" width="70" />
+<div style="display: inline; text-align: center; width: 100%;">
+ <img src="https://raw.githubusercontent.com/devserpro/doc/master/logo-consulta-cnpj.png" width="70" style="margin-right: 10px;" />
+ <img src="https://raw.githubusercontent.com/devserpro/doc/master/logo-consulta-cpf.png" width="70" />
+</div>
 
 ## Degustação e Testes
 
