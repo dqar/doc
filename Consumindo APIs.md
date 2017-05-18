@@ -17,7 +17,7 @@ As _APIs_ possuem um papel crucial em um mundo cada vez mais conectado e que nec
  <img src="https://raw.githubusercontent.com/devserpro/doc/master/logo-consulta-cpf.png" width="100" />
 </div>
 
-<br />
+
 [Voltar ao Topo](#consumindo-apis-disponibilizadas-pelo-serpro)
 
 ## Degustação e Testes
@@ -31,7 +31,7 @@ Uma _modal_ (tela) será aberta para a realização de testes utilizando o _Swag
  <a href="https://dev.serpro.gov.br" target="_blank"><img src="https://github.com/devserpro/doc/blob/master/teste-apis-swagger.png?raw=true" width="900" /></a>
 </div>
 
-<br />
+
 [Voltar ao Topo](#consumindo-apis-disponibilizadas-pelo-serpro)
 
 ## Como Consumir os Serviços
