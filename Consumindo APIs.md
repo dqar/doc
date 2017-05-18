@@ -11,6 +11,141 @@ As _APIs_ possuem um papel crucial em um mundo cada vez mais conectado e que nec
 
 ## Degustação e Testes
 
+## Como Consumir os Serviços
+
+Para consumir os serviços do APIGov é necessário que seja estabelecido um contrato com a área responsável pela _API_. No contrato estão definidos:
+
+Data de inicio e término dos acessos;
+Limite de requisições que podem ser feitas em um determinado período (requisições/minuto);
+_APIs_ que podem ser acessadas;
+Depois de firmado o contrato, você receberá dois códigos (_User Key_ e _Consumer Secret_). Esses códigos servem para identificar o contrato. Sempre que precisar acessar as _APIs_ contratadas será necessário informa-los. Mas a frente vamos demostrar como utilizar esses códigos da obtenção de sua _API_.
+
+Exemplo de código:
+```javascript
+Consumer Key : uldY78ZMvYm4btC0x3XZLG7ZTsYa
+Consumer Secret : WyUeBFCUK7wu1Ko61V7bb7yB2Uoa
+```
+
+### Passos para acessar a API
+As nossas _APIs_ utiliza o protocolo de autorização _OAUTH2_ para disponibilizar o acesso às _APIs_. No exemplo abaixo estamos utilizando o _GranType Client Credentials_ para requisição de token e acesso a _API_:
+
+#### 1 - Informe os IPs de sua máquina
+
+Por medidas de segurança, precisamos liberar o acesso da sua máquina à nossa infraestrutura. Para isso, é necessário que você informe o IP da máquina que irá consumir a _API_ para o endereço: [apigov@serpro.gov.br](mailto:apigov@serpro.gov.br)
+
+#### 2 - Faça a requisição do Token de acesso
+
+O primeiro passo que deve ser seguido antes de realizar a chamado da _API_ é a requisição do token de Acesso. Esse token tem sua validade definida de acordo com a _API_. Para solicitar o token temporário siga os seguintes passos:
+
+Informe ao Gateway suas Credenciais de Acesso
+Faça uma requisição _POST_ ao endereço [https://apigateway.serpro.gov.br/token](https://apigateway.serpro.gov.br/token) informando suas credenciais de acesso informando os seguintes parâmetros:
+
+```javascript
+[POST] grant_type=client_credentials
+[HEAD] Authorization: Basic base64(Consumer Key:Consumer Secret)
+```
+
+Como exemplo podemos fazer essa chamada via _cUrl_ da seguinte forma:
+
+```javascript
+curl -k -d "grant_type=client_credentials" -H "Authorization: Basic dWxkWTc4Wk12WW00YnRDMHgzWFpMRzdaVHNZYTpXeVVlQkZDVUs3d3UxS282MVY3YmI3eUIyVW9h" https://apigateway.serpro.gov.br/token
+```
+
+A chave informada no exemplo acima "dWxkWTc4Wk12WW00YnRDMHgzWFpMRzdaVHNZYTpXeVVlQkZDVUs3d3UxS282MVY3YmI3eUIyVW9h" é resultado do _BASE64_ da chaves de exemplo: "base64(uldY78ZMvYm4btC0x3XZLG7ZTsYa:WyUeBFCUK7wu1Ko61V7bb7yB2Uoa)"
+
+**Receba o Token**
+O _Gateway_ informará as iformações de token no seguinte padrão:
+
+```javascript
+ {"scope":"am_application_scope default","token_type":"Bearer","expires_in":3295,"access_token":"c66a7de41c96f7008a0c397dc588b6d7"} 
+```
+
+**scope** = Algumas APIs definem escopos diferentes para acessos a diferentes funcionalidades. Por exemplo: clientes com escopo de Leitura podem acessar somente funcionalidades de Leitura, escopo de escrita poderão consultar e incluir novos valores, escopo de deleção poderão consultar, incluir e deletar. Quando a API não possui esse tipo de recurso usa-se o escopo padrão.
+
+**token_type** = Define a forma como o token será enviado. Por padrão utilizamos **_Bearer_**.
+
+**expires_in** = Define o tempo em segundos em que o token expirará. Passado esse tempo será necessário realizar uma nova chamada.
+
+**access_token** = O token a ser enviado durante a requisição.
+
+#### 3 - Faça a requisição à API
+
+Cada _API_ possui seus próprios atributos. Para acessá-los consulte a aba Console da _API_ da sua _API_.
+
+No exemplo a baixo vamos utilizar a consulta de CNPJ. Nessa seção é possível visualizar as possíveis respostas que a _API_ pode fornecer.
+
+De posse do _Token_, faça uma requisição via _GET_ ao _gateway_ informando os paramentros da _API_ desejada. Exemplo:
+
+```curl
+curl -X GET --header "Accept: application/json" --header "Authorization: Bearer c66a7de41c96f7008a0c397dc588b6d7" "https://apigateway.serpro.gov.br/consulta-cnpj/v1/cnpj/00203517121"
+```
+No exemplo acima foram utilizados os seguintes parâmetros:
+
+```javascript
+[HEADER] Accept: application/json - Informamos que o tipo de dados que estamos requerendo, nesse caso JSON
+```
+
+```javascript
+[HEADER] Authorization: Bearer c66a7de41c96f7008a0c397dc588b6d7 - Informamos o token recebido
+```
+
+```javascript
+[GET] https://apigateway.serpro.gov.br/consulta-cnpj/v1/cnpj/0022343434 - chamamos a url da API informando o CNPJ . No caso a url é "consulta-cnpj/v1/cnpj/{numero do CNPJ}"
+```
+
+Nesse caso, espera-se que a resposta seja a seguinte:
+```javascript
+   {
+  "cnae_secundarias": [
+    {
+      "codigo": "string",
+      "descricao": "string"
+    }
+  ],
+  "ente_federativo": "string",
+  "qt_comprovante": "string",
+  "data_situacao_especial": "string",
+  "porte": "string",
+  "tipo_estabelecimento": "string",
+  "telefones": [
+    {
+      "ddd": "string",
+      "numero": "string"
+    }
+  ],
+  "data_abertura": "string",
+  "correio_eletronico": "string",
+  "qt_certidao": "string",
+  "situacao_cadastral": {
+    "codigo": "string",
+    "motivo": "string",
+    "data": "string"
+  },
+  "nome_empresarial": "string",
+  "cnae_principal": {
+    "codigo": "string",
+    "descricao": "string"
+  },
+  "capital_social": "string",
+  "natureza_juridica": {
+    "codigo": "string",
+    "descricao": "string"
+  },
+  "nome_fantasia": "string",
+  "situacao_especial": "string",
+  "orgao": "string",
+  "ni": "string",
+  "endereco": {
+    "bairro": "string",
+    "cep": "string",
+    "complemento": "string",
+    "municipio": "string",
+    "uf": "string",
+    "logradouro": "string",
+    "numero": "string"
+  }
+}
+```
 ## Autenticação
 
 ### O que é OAUTH 2
@@ -158,8 +293,9 @@ O sistema retorna a mensagem de erro abaixo:
 Esse erro ocorre quando o usuário não envia uma chave de subscrição válida ou quando não é feito o BASE64 da chave.
 
 ## Como e Onde Contratar
-Manifestando o interesse por alguma _API_ já existente ou não, você pode preencher as informações do formulário que pode ser encontrado aqui ou entrar em contato diretamente com a área comercial do SERPRO pelo número [0800-728-2323](tel:08007282323) ou pelo e-mail: [comercial@serpro.gov.br](mailto:comercial@serpro.gov.br).
+Manifestando o interesse por alguma _API_ já existente ou não, você pode preencher as informações do formulário que pode ser encontrado aqui ou entrar em contato diretamente com a área comercial do SERPRO pelo número **0800-728-2323** ou pelo e-mail: [comercial@serpro.gov.br](mailto:comercial@serpro.gov.br).
 
 ## Minha Conta e Estatísticas de Uso
+
 
 ## Aplicabilidades
