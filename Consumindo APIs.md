@@ -9,8 +9,8 @@ As _APIs_ possuem um papel crucial em um mundo cada vez mais conectado e que nec
 
 ## _APIs_ Disponíveis
 <div style="display: inline;">
- <img src="https://raw.githubusercontent.com/devserpro/doc/master/logo-consulta-cnpj.png" width="70" style="padding-right: 20px;" />
- <img src="https://raw.githubusercontent.com/devserpro/doc/master/logo-consulta-cpf.png" width="70" />
+ <img src="https://raw.githubusercontent.com/devserpro/doc/master/logo-consulta-cnpj.png" width="100" style="padding-right: 20px;" />
+ <img src="https://raw.githubusercontent.com/devserpro/doc/master/logo-consulta-cpf.png" width="100" />
 </div>
 
 ## Degustação e Testes
