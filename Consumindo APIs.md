@@ -19,6 +19,11 @@ Acesse o [Portal do Desenvolvedor](https://dev.serpro.gov.br) e clique no botão
  <a href="https://dev.serpro.gov.br" target="_blank"><img src="https://github.com/devserpro/doc/blob/master/teste-apis.png?raw=true" width="900" /></a>
 </div>
 
+Uma _modal_ (tela) será aberta para a realização de testes utilizando o _Swagger UI_. Caso queira trocar a _API_, basta clicar na logo da _API_ desejada.
+<div style="text-align: center;">
+ <a href="https://dev.serpro.gov.br" target="_blank"><img src="https://github.com/devserpro/doc/blob/master/teste-apis-swagger.png?raw=true" width="900" /></a>
+</div>
+
 ## Como Consumir os Serviços
 
 Para consumir os serviços do APIGov é necessário que seja estabelecido um contrato com a área responsável pela _API_. No contrato estão definidos:
