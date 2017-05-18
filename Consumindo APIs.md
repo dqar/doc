@@ -1,6 +1,6 @@
 # [Consumindo APIs disponibilizadas pelo SERPRO](#consumindo)
 
-[O que é _API_?](#o_que_é_api) - [_APIs_ Disponíveis](#_APIs_ Disponíveis) - [Degustação e Testes](#degustacaoetestes) - [Como Consumir os Serviços](#comoconsumirosservicos) - [Autenticação](#autenticacao) - [Códigos de Erros](#codigosdeerros) - [Como e Onde Contratar](#comoeondecontratar) - [Minha Conta e Estatísticas de Uso](#minhaconta) - [Aplicabilidades](#aplicabilidades)
+[O que é _API_?](#o_que_%C3%A9_api) - [_APIs_ Disponíveis](#apis_dispon%C3%ADveis) - [Degustação e Testes](#degusta%C3%A7%C3%A3o_e_testes) - [Como Consumir os Serviços](#como_consumir_os_serviços) - [Autenticação](#autentica%C3%A7%C3%A3o) - [Códigos de Erros](#c%C3%B3digos_de_erros) - [Como e Onde Contratar](#como_e_onde_contratar) - [Minha Conta e Estatísticas de Uso](#minha_conta_e_estat%C3%ADsticas_de_uso) - [Aplicabilidades](#aplicabilidades)
 
 ## O que é _API_?
 Em Inglês o termo _API_ é o acrônimo de _Application Programming Interface_ que significa literalmente Interface de Programação de Aplicativos. Essa interface possibilita que serviços/dispositivos criados com tecnologias diferentes se comuniquem entre si. Eles não precisam saber como o outro dispositivo funciona ou o que ele precisa acessar. Um comando é enviado e em contrapartida é esperado uma resposta que pode ser uma resposta positiva, negativa ou simplesmente informações requeridas. As _APIs_ podem ser utilizadas em diferentes níveis desde a comunicação entre software/hardware e software/software.
@@ -19,7 +19,7 @@ As _APIs_ possuem um papel crucial em um mundo cada vez mais conectado e que nec
 
 [Voltar ao Topo](#consumindo)
 
-## [Degustação e Testes](#degustacaoetestes)
+## Degustação e Testes
 Acesse o [Portal do Desenvolvedor](https://dev.serpro.gov.br) e clique no botão **"Teste APIs"**, conforme figura abaixo:
 <div style="text-align: center;">
  <a href="https://dev.serpro.gov.br" target="_blank"><img src="https://github.com/devserpro/doc/blob/master/teste-apis.png?raw=true" width="900" /></a>
@@ -32,7 +32,7 @@ Uma _modal_ (tela) será aberta para a realização de testes utilizando o _Swag
 
 [Voltar ao Topo](#consumindo)
 
-## [Como Consumir os Serviços](#comoconsumirosservicos)
+## Como Consumir os Serviços
 
 Para consumir os serviços do APIGov é necessário que seja estabelecido um contrato com a área responsável pela _API_. No contrato estão definidos:
 
@@ -170,7 +170,7 @@ Nesse caso, espera-se que a resposta seja a seguinte:
 
 [Voltar ao Topo](#consumindo)
 
-## [Autenticação](#autenticacao)
+## Autenticação
 
 ### O que é OAUTH 2
 As _APIs_ do SERPRO utilizam por padrão o _OAUTH2_ como autorização de acesso às _APIs_. Esse método consiste na troca de chaves entre o cliente e o APIGOV. Inicialmente o cliente informa suas credenciais para receber o token de acesso temporario que deverá ser enviada juntamente com a requisição da _API_. Para saber mais informações sobre o _OAUTH2_ consulte aqui .
@@ -233,7 +233,7 @@ Nas _APIs_ o _JWT_ pode ser usado tanto por parte do cliente que está consumind
 
 [Voltar ao Topo](#consumindo)
 
-## [Códigos de Erros](#codigosdeerros)
+## Códigos de Erros
 
 - **700700 - API blocked**
   * Esta API foi bloqueada temporariamente. Tente novamente mais tarde ou entre em contato com os administradores do sistema. Invocar uma API que está no estado de ciclo de vida BLOCKED
@@ -320,15 +320,15 @@ Esse erro ocorre quando o usuário não envia uma chave de subscrição válida 
 
 [Voltar ao Topo](#consumindo)
 
-## [Como e Onde Contratar](#comoeondecontratar)
+## Como e Onde Contratar
 Manifestando o interesse por alguma _API_ já existente ou não, você pode preencher as informações do formulário que pode ser encontrado aqui ou entrar em contato diretamente com a área comercial do SERPRO pelo número **0800-728-2323** ou pelo e-mail: [comercial@serpro.gov.br](mailto:comercial@serpro.gov.br).
 
 [Voltar ao Topo](#consumindo)
 
-## [Minha Conta e Estatísticas de Uso](#minhaconta)
+## Minha Conta e Estatísticas de Uso
 
 [Voltar ao Topo](#consumindo)
 
-## [Aplicabilidades](#aplicabilidades)
+## Aplicabilidades
 
 [Voltar ao Topo](#consumindo)
