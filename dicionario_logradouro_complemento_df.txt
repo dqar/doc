@@ -1,0 +1,144 @@
+aeb: aeroporto brasilia, aeroporto bsa
+ae: area especial
+aemn: area expansao ministerios norte, area expansao min norte, area exp min norte
+aems: area expansao ministerios sul, area expansao min sul, area exp min sul
+aos: area octogonal sul, octogonal sul
+avp: area verde protecao, area verde protecao e reserva
+bot: jardim botanico
+ca: centro abastecimento
+ch: chacara
+cln: com local norte, comercio loc norte
+cls: com local sul, comercio loc sul
+clsw: com local sudoeste, comercio loc sudoeste
+crn: com residencial norte
+crs: com local norte, comercio loc norte
+ectb: estrada parque contorno bosque
+eht: estrada hoteis turismo,  est parque armazenagem
+emi: esplanada ministerios, esplanada min
+epaa: estrada parque armazenagem,  est parque armazenagem
+epac: estrada parque agrupamento cavalaria,  est parque agrupamento cavalaria
+epar: estrada parque aeroporto,  est parque aeroporto
+epcl: estrada parque ceilandia,  est parque ceilandia
+epct: estrada parque contorno,  est parque contorno
+epcv: estrada parque cabeca veado,  est parque cabeca veado
+epdb: estrada parque dom bosco,  est parque dom bosco
+epgu: estrada parque guara,  est parque do guara
+epia: estrada parque industria e abastecimento,  est parque industria e abastecimento
+epig: estrada parque industrias graficas, est parque industrias graficas
+epip: estrada parque ipe, est parque ipe
+epnb: estrada parque nucleo bandeirante, est parque nucleo bandeirante
+eppn: estrada parque peninsula norte, est parque peninsula norte
+eppr: estrada parque paranoa, est parque paranoa
+epro: estrada parque taguatinga, est parque taguatinga
+eptg: estrada parque taguatinga, est parque taguatinga
+eptm: estrada parque tamandua, est parque tamandua 
+eptt: estrada parque vargem bonita,  est parque vargem bonita
+epvl: estrada parque vale,  est parque vale
+epvp: estrada parque vicente pires,  est parque vicente pires
+eqn: entrequadra norte
+eqs: entrequadra sul
+ern: eixo rodoviario norte,  eixo rod norte, eixo rodo norte
+ers: eixo rodoviario sul,  eixo rod sul,  eixo rodo sul
+erln: eixo rodoviario leste norte,  eixo rod leste norte,  eixo rodo leste norte
+erls: eixo rodoviario leste sul,  eixo rod leste sul,  eixo rodo leste sul
+erwn: eixo rodoviario oeste norte,  eixo rod oeste norte,  eixo rodo oeste norte
+erws: eixo rodoviario oeste sul,  eixo rod oeste sul,  eixo rodo oeste sul
+espm: estrada parque setor policia,  est parque setor policia
+et: esplanada torre
+ml: mansoes lago
+pf: parque ferroviario,  parque ferro
+pqeb: parque rural e estacao biologica,  parque rural e est biologica
+pmu: praca municipal,  praca mun
+pr: plataforma rodoviaria,  plataforma rod,  plataforma rodo
+ptp: praca tres poderes
+pts: praca tribunais superiores
+qe: quadra externa
+qi: quadra interna
+ql: quadra lago
+qrsw: quadra residencial sudoeste
+saa: setor abastecimento armazenagem
+saan: setor armazenagem abastecimento norte
+saas: setor armazenagem abastecimento sul
+safs: setor administracao federal sul
+sai: setor area isoladas
+sain: setor area isoladas norte
+sais: setor area isoladas sul
+sai/so: setor area isoladas sudoeste
+sam: setor autarquias municipais
+san: setor autarquias norte
+sas: setor autarquias sul
+sbn: setor bancario norte
+sbs: setor bancario sul
+sbo: setor bosques
+sc: setor comercial, setor com
+scn: setor comercial norte,  setor com norte, sc norte
+sceen: setor clubes esportivos estadios norte,  setor clubes esportivos est norte
+scees: setor clubes esportivos estadios sul,  setor clubes esportivos est sul
+scen: setor clubes esportivos norte
+sces: setor clubes esportivos sul
+scrn: setor comercial residencial norte, setor com residencial norte, sc residencial norte
+scrs: setor comercial residencial sul,  setor com residencial sul, sc residencial sul
+scs: setor comercial sul,  setor com sul, sc sul
+sctn: setor cultural norte,  setor cult norte
+scts: setor cultural sul,  setor cult sul
+sdn: setor diversoes norte, setor diversao norte
+sds: setor diversoes sul,  setor diversao sul
+sen: setor embaixadas norte
+ses: setor embaixadas sul
+sepn: setor edificio publico norte
+seps: setor edificio publico sul
+sgan: setor grande areas norte
+sgas: setor grandes areas sul
+sgcv: setor garagem e concessao de veiculos
+sgo: setor garagens oficiais
+seups: setor  edificio utilidades publico sul 
+shn: setor hoteleiro norte
+shs: setor hoteleiro sul
+shce: setor habitacoes coletivas economicas
+shcaos: setor habitacoes coletivas ­area octogonal sul
+shcg: setor habitacoes coletivas geminadas
+shcs: setor habitacoes coletivas sul
+shcn: setor habitacoes coletivas norte
+shig: setor habitacoes individuais geminadas
+shin: setor habitacoes individuais norte
+ship: setor hipico
+shis: setor de habitacoes individuais sul
+shln: setor hospitalar local norte
+shls: setor hospitalar local sul
+shn: setor hoteleiro norte
+shs: setor hoteleiro sul
+shtn: setor hoteis turismo norte
+shts: setor hoteis turismo sul
+sia: setor industria abastecimento
+sig: setor industrias graficas
+sin: setor inflamaveis
+smas: setor multiplas atividades sul
+smdb: setor mansoes dom bosco
+smhn: setor medico hospitalar norte
+smhs: setor medico hospitalar sul
+sml: setor mansoes do lago
+smln: setor mansoes lago norte, sml norte
+smu: setor militar urbano
+smpw: setor mansoes park way
+sofs: setor oficinas sul
+sofn: setor oficinas norte
+spa: setor paiois
+spma: setor postos moveis
+spmn: setor postos moteis norte, spma norte
+spms: setor postos moteis sul, spma sul
+sps: setor policial sul
+spp: setor palacio presidencial
+sqn: super quadra norte,  superquadras norte, sq norte
+sqs: super quadra sul,  superquadras sul, sq sul
+sqnw: superquadra noroeste, super quadra noroeste, sq noroeste
+sqsw: superquadra sudoeste, super quadra sudoeste, sq sudoeste
+sres: setor  residencial economicas sul, sre sul
+qmsw: quadra mista sudoeste
+sria i: setor residencial industria abastecimento guara i
+sria ii: setor residencial industria abastecimento guara ii
+srp: setor recreacao publica,  setor rec publica
+srtn: setor radio televisao norte
+srts: setor radio televisao sul
+strc: setor transporte rodoviario carga
+unb: universidade brasilia,  uni brasilia
+
